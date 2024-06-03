@@ -1,0 +1,13 @@
+zerops:
+  - setup: app
+    build:
+      base: nodejs@20
+      buildCommands:
+        - npm i
+        - npm run build
+      deploy:
+        - ./dist/recipe-backend-ui/browser/~
+    run:
+      envReplace:
+        target: ./
+        delimiter: "%%"
