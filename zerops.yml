@@ -8,6 +8,13 @@ zerops:
       deploy:
         - ./dist/recipe-backend-ui/browser/~
     run:
+      base: static@latest
+      envVariables:
+        API_URL: ${api_zeropsSubdomain}
+      routing:
+        redirects:
+          - from: /
+            to: index.html
       envReplace:
         target: ./
         delimiter: "%%"
