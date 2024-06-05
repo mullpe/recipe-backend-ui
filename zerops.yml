@@ -13,7 +13,7 @@ zerops:
         API_URL: ${api_zeropsSubdomain}
       routing:
         redirects:
-          - from: /
+          - from: /*
             to: index.html
       envReplace:
         target: ./
