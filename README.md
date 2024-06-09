@@ -1,4 +1,4 @@
-# UI for Zerops recipes
+# UI for Zerops backend frameworks recipes
 Small Angular application running on **Zerops static apps service**. Includes file upload used to showcase functionality of various Zerops framework recipes (example apps).
 
 Can be added to existing project using "Import service to project" with following YAML.
