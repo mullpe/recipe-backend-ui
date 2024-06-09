@@ -3,7 +3,7 @@ Small Angular application with file upload used to showcase functionality of Zer
 
 Can be added to existing project using "Import service to project" with following YAML.
 
-```
+```yaml
 services:
   - hostname: app
     type: static
