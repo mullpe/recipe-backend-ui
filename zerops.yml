@@ -7,6 +7,7 @@ zerops:
         - npm run build
       deployFiles:
         - ./dist/recipe-backend-ui/browser/~
+        - site.conf
     run:
       base: nginx@latest
       siteConfigPath: site.conf
