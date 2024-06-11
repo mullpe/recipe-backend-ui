@@ -8,8 +8,7 @@ zerops:
       deployFiles:
         - ./dist/recipe-backend-ui/browser/~/
     run:
-      base: nginx@latest
-      siteConfigPath: site.conf
+      base: static
       envVariables:
         API_URL: ${api_zeropsSubdomain}
       routing:
