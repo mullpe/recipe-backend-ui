@@ -13,4 +13,3 @@ services:
 
 ### Used in recipes
 - [Zerops x Nest.js](https://github.com/zeropsio/recipe-nestjs)
-- [Zerops x Django](https://github.com/zeropsio/recipe-django)
