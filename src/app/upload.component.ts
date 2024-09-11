@@ -119,8 +119,8 @@ export class UploadComponent {
     if (!file) { return undefined; }
     return {
       name: file.name,
-      lastModified: file.lastModified,
-      size: file.size,
+      lastModified: new Date(file.lastModified).toLocaleString(),
+      size: `${(file.size / 1000).toFixed(2)} kB`,
       type: file.type
     };
   });
